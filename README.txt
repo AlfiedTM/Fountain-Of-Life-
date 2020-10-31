@@ -1,0 +1,6 @@
+A website for Fountain Of Hope Community School...
+
+Let us do an awesome Job...
+
+
+HTML CSS BOOTSTRAP
