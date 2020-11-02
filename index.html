@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="css\bootstrap.min.css" type="text/css" media="all">
         <link rel="stylesheet" href="Styles\index.css" type="text/css">
     </head>
-    <body>
-        <header class="">
+    <body class="mb-0 pb-0">
+        <header>
             <nav class="navbar navbar-expand-md navbar-light bg-transparent ">
                 <a class="navbar-brand " id="Logo" href="#"><span class="ml-2">Fountain Of Hope</span><br> Community School</a>
                 <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#Navlinks"
@@ -43,7 +43,7 @@
 						<li data-target="#carouselId" data-slide-to="2"></li>
 					</ol>
 					<div class="carousel-inner" role="listbox">
-						<h2 class="text-center  h3 welcome-note">WELCOME TO FOUNTAIN OF HOPE COMMUNITY SCHOOL</h2>
+						<h2 class="text-center  h3 welcome-note text-center">WELCOME TO FOUNTAIN OF HOPE COMMUNITY SCHOOL</h2>
 						<div class="carousel-item active">
 							<!-- <div class="card w-100 ">
 								<div class="card-body"> -->
@@ -129,7 +129,7 @@
 					</div>
 				</section>
 				<section class="container">
-					<h4 class="Events text-center">Events</h4>
+					<h4 class=" text-center">Events</h4>
 					<div class="row mb-3">
 					<div class="card col-4 col-12 col-md-4">
 						<img class="card-img-top" src="Images\IMG_20190908_084220086.jpg" alt="Events">
@@ -160,7 +160,7 @@
 						</div>
 				</section>
 				<div class="container Our-Gallery">
-					<h3 class="h3 text-center">Gallery</h3>
+					<h3 class=" h3 text-center">Gallery</h3>
 					<div class="row mb-3">
 						<div class="card col-12 col-md-4 d-none d-md-block">
 							<img class="card-img-top" src="Images\IMG_20190917_125522906.jpg" alt="Events">
@@ -177,7 +177,7 @@
 						</div>
 						
 				
-				<div class="row mb-3">
+				<div class="row mb-2">
 					<div class="card col-12 col-md-4">
 						<img class="card-img-top" src="Images\IMG_20190917_125522906.jpg" alt="Events">
 					</div>
@@ -190,31 +190,86 @@
 						<img class="card-img-top" src="Images\IMG_20190917_125522906.jpg" alt="Events">
 					</div>
 
-					</div>
+				</div>
 					
 			</div>
 		</main>
-			<footer class="container-fluid bg-dark h-100">
+		<!-- small to medium devices -->
+
+		<footer class="container-fluid d-md-none">
 				<!-- <section> -->
-					<h4 id="contact" class="h4 text-center py-2">Contact us</h4>
-					<ul class="Contact-info">
-						<li><i class="fa fa-phone ml-1 mb-2 fa-flip-horizontal" aria-hidden="true"></i><span class="phone">+260975770988</span></li>
-						<li><i class="fa fa-envelope ml-1 mb-2" aria-hidden="true"></i><a class="mail" href="mailto:alfredtwaambo@gmail.com">alfredtwaambo@gmail.com</a></li>
-						<li><i class="fab fa-facebook-square  ml-1 mb-2 " aria-hidden="true"></i><a class="facebook" href="">Fountain Of Hope</a> </li>
+					<h4 id="contact" class="h4 text-center Underline py-3">Contact us</h4>
+					<div class="row">
+						<div class="col-md-5 col-12">
+							<ul class="Contact-info">
+								<li><i id="phoneNumber" class="fa fa-phone ml-1 mb-2 fa-flip-horizontal " aria-hidden="true"></i><span class="phone ml-1">+260 979 020 280 / 978 877 649</span></li>
+								</ul>
+						</div>
+	
+	
+	
+						<div class="col-md-6 col-12">
+							<ul class="Contact-info">
+								<li ><i class="fa fa-envelope mb-2" aria-hidden="true"></i><a class="mail ml-2 ml-md-3" href="mailto:alfredtwaambo@gmail.com">flifeschool@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-12">
+							<ul class="Contact-info">
+								<li ><i class="fab fa-facebook-square mb-2 " aria-hidden="true"></i><a class="facebook ml-2 ml-md-3" href="https://web.facebook.com/Fountain-of-life-community-school-ngombe-279169269603289">Fountain Of Hope</a> </li>
+							</ul>
+					</div>
+						<div class="col-md-5 col-12">
+							<ul class="Contact-info">
 						<li>
-							<i class="fas ml-1  fa-map-marker-alt"></i>
-							<span class="address">Kaunda Square Stage 2,</span><br>
-							<span class=" ml-4 ml-lg-5"> House No 202/02,</span><br>
-							<span class=" ml-4 ml-lg-5"> Lusaka, Zambia.</span>
+							<i class="fas ml-1 fa-map-marker-alt"></i>Plot No 155/09, New Ngombe.
 						</li>
 						
 					</ul>
-				<!-- </section> -->
-					<p class="d-block text-white text-center pb-3">&copy; Bervin IT Solutions 2020</p>
+					
+					
+					<div class="card-footer  text-center">&copy; Bervin IT Solutions 2020</div>
+				</footer>
+		</footer>
+		<footer class="container-fluid d-none d-md-block">
+			<!-- <section> -->
+				<h4 id="contact" class="h4 text-center Underline py-3">Contact us</h4>
+				<div class="row">
+					<div class="col-md-6 col-12">
+						<ul class="Contact-info">
+							<li><i id="phoneNumber" class="fa fa-phone ml-1 mb-2 fa-flip-horizontal " aria-hidden="true"></i><span class="phone ml-1">+260 979 020 280 / 978 877 649</span></li>
+							</ul>
+					</div>
+
+
+
+					<div class="col-md-6 col-12">
+						<ul class="Contact-info">
+							<li ><i class="fa fa-envelope mb-2" aria-hidden="true"></i><a class="mail ml-3" href="mailto:alfredtwaambo@gmail.com">flifeschool@gmail.com</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-12">
+						<ul class="Contact-info">
+					<li>
+						<i class="fas ml-1 fa-map-marker-alt"></i>Plot No 155/09, New Ngombe.
+					</li>
+					
+				</ul>
+					</div>
+					<div class="col-md-6 col-12">
+						<ul class="Contact-info">
+							<li ><i class="fab fa-facebook-square mb-2 " aria-hidden="true"></i><a class="facebook ml-3" href="https://web.facebook.com/Fountain-of-life-community-school-ngombe-279169269603289">Fountain Of Hope</a> </li>
+						</ul>
+				</div>
 				
+				</div>
+				
+				<div class="card-footer  text-center">&copy; Bervin IT Solutions 2020</div>
 			</footer>
-			
-	
+				
         <script src="\js\jquery-3.4.1.min.js"></script>
         <script src="\js\popper.min.js"></script>
        <script src="\js\bootstrap.min.js"></script> 
