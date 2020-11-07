@@ -107,14 +107,7 @@ footer{
 .carousel-item > img{
     height: 700px;
 }
-html{
-    position: relative;
-    bottom: -10px;
-}
-body{
-    position: relative;
-    bottom: 10px;  
-}
+
 #Logo{
     float: left;
     display: initial;
@@ -127,13 +120,11 @@ body{
 header{
     margin-bottom: 1%;
 }
-body{
-    padding-bottom: -2%;
-}
+
 .navbar-link {
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     color: black;
-    font-size: x-large;
+    font-size: large;
     font-weight: 400;
 }
 
@@ -155,28 +146,70 @@ body{
     font-family: sans-serif;
 }
 
+@media only screen and (min-width: 801px){
+    .navbarlink {
+        padding-left: 6%;
+       }
+}
+
+
+@media only screen and (min-width: 845px){
+    .navbarlink {
+        padding-left: 12%;
+       }
+}
+
+
+
+@media only screen and (min-width: 890px){
+    .navbarlink {
+        padding-left: 15%;
+       }
+}
+
+  
+@media only screen and (min-width: 940px){
+    .navbarlink {
+        padding-left: 27%;
+       }
+}
+
 
 @media only screen and (min-width: 1024px){    
     .navbarlink{
-        padding-left:50%;
+        padding-left:20%;
      }
     
 }
 
-
-@media only screen and (min-width: 880px){
-    .navbarlink {
-        padding-left: 10%;
-       }
-}  
+@media only screen and (min-width: 1040px){    
+    .navbarlink{
+        padding-left: 33%;
+     }
     
-
-
-@media only screen and (min-width: 860px){
-    .navbarlink {
-        padding-left: 10%;
-       }
 }
+
+@media only screen and (min-width: 1140px){    
+    .navbarlink{
+        padding-left: 43%;
+     }
+    
+}
+
+@media only screen and (min-width: 1340px){    
+    .navbarlink{
+        padding-left: 35%;
+     }
+    
+}
+
+@media only screen and (mi-width: 1401px){    
+    .navbarlink{
+        padding-left:0%;
+     }
+    
+}
+
 /* Needs ref */
 
 @media only screen and (max-width: 800px){
@@ -214,7 +247,7 @@ body{
         left: -5%;
     }
     .navbarlink {
-     padding-left: 04%;
+     padding-left: 10%;
     }
 }
 
@@ -301,7 +334,7 @@ body{
 
     .navbar-link {
         position: relative;
-        left: 65%;
+        left: 74%;
     }
     
 }
