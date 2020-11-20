@@ -1,6 +1,15 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.designer{
+    text-decoration: none;
+    color: inherit;
+}
+
+.designer:hover{
+    text-decoration: none;
+    color: inherit;
+}
 .extra{
     display: none;
 }
